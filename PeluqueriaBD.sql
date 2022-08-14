@@ -38,5 +38,6 @@ INSERT INTO Perro(Nombre_perro, Fecha_nac, Sexo, DNI_dueno)
 ('Shelvy', '24/12/2016', 'macho', 1562983),
 ('Rocco', '12/03/2022', 'macho', 2062983);
 
+-- Ejercicio 5 Valoración de bases de datos.
 SELECT Nombre_perro FROM Perro inner join Dueno on Perro.DNI_dueno = Dueno.DNI
 WHERE Nombre = 'Pedro';
